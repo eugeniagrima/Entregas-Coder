@@ -5,10 +5,12 @@
 }
 
 body {
-
-    background: -webkit-radial-gradient(rgb(209, 219, 228), rgb(150, 150, 150));
-    background: radial-gradient(rgb(209, 219, 228), rgb(150, 150, 150));
-    
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .titulo {
@@ -122,6 +124,22 @@ li {
     justify-content: center;
     font-family: 'Amatic SC', cursive;
     font-size: xxx-large;
+    animation: mi-animacion 2s linear 3s;
+}
+
+@keyframes mi-animacion {
+    0% {
+        font-size: larger;
+        font-style: bold;
+    }
+    50% {
+        font-size: xxx-large;
+    }
+
+    100% {
+        font-size: xxxx-large;
+        font-style: bold;
+    }
 }
 
 .redes {
@@ -139,6 +157,7 @@ li {
     font-family: 'Amatic SC', cursive;
     font-size: xx-large;
 }
+
 .pestañasTit {
     display: flex;
     justify-content: center;
