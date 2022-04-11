@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: #ADA996;
     /* fallback for old browsers */
@@ -12,33 +11,20 @@ body {
     background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
-.titulo {
-    font-family: 'Bebas Neue', cursive;
-    display: flex;
-    justify-content: center;
-    margin: 10px auto;
-    padding: 10px auto;
-    height: 10px;
-}
-
 nav {
     background-color: rgb(223, 221, 219);
     color: black;
     font-family: 'Bebas Neue', cursive;
 }
-
 ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
 }
-
 li {
     padding: 10px;
     margin: auto;
 }
-
 .logo {
     width: 80px;
     margin: 0 auto;
@@ -49,7 +35,6 @@ li {
     align-items: center;
     align-content: center;
 }
-
 .container {
     background-color: rgb(204, 203, 199);
     width: 50%;
@@ -64,7 +49,6 @@ li {
     justify-items: center;
     align-items: stretch;
 }
-
 .foto {
     display: grid;
     width: 300px;
@@ -72,7 +56,6 @@ li {
     padding: auto;
     border: 1px dotted black;
 }
-
 .presentacionDiv {
     background-color: rgb(230, 224, 224);
     font-family: 'Amatic SC', cursive;
@@ -85,30 +68,25 @@ li {
     border: 1px dotted black;
     align-items: center;
 }
-
 .muestras {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 20px;
 }
-
 .muestrasFoto {
     width: 300px;
     align-items: center;
     transition: all 1ms;
 }
-
 .muestrasFoto:hover {
     height: 350px;
     width: 350px;
 }
-
 .facial {
     height: auto;
     width: 200px;
 }
-
 .fotosFacial {
     display: flex;
     background-color: rgb(204, 203, 199);
@@ -118,7 +96,6 @@ li {
     justify-content: space-between;
     padding: 20px;
 }
-
 .ppalDiv {
     display: flex;
     justify-content: center;
@@ -126,7 +103,6 @@ li {
     font-size: xxx-large;
     animation: mi-animacion 2s linear 3s;
 }
-
 @keyframes mi-animacion {
     0% {
         font-size: larger;
@@ -141,12 +117,10 @@ li {
         font-style: bold;
     }
 }
-
 .redes {
     font-family: 'Amatic SC', cursive;
     font-size: xx-large;
 }
-
 .imagenesFaciales,
 .makeUp,
 .gale,
@@ -157,7 +131,6 @@ li {
     font-family: 'Amatic SC', cursive;
     font-size: xx-large;
 }
-
 .pestañasTit {
     display: flex;
     justify-content: center;
@@ -165,7 +138,6 @@ li {
     margin: auto;
     font-size: x-large;
 }
-
 .tiposFaciales {
     background-color: rgb(204, 203, 199);
     width: 500px;
@@ -180,13 +152,11 @@ li {
     font-size: larger;
     transition: all 1ms;
 }
-
 .tiposFaciales:hover {
     height: 400px;
     width: 400px;
     border-radius: 100px;
 }
-
 .tipos {
     background-color: rgb(204, 203, 199);
     width: 915px;
@@ -198,14 +168,12 @@ li {
     margin: auto;
     border: 3px solid black;
 }
-
 .exten {
     display: flex;
     text-align: center;
     margin: 10px auto;
     padding: 5px;
 }
-
 .lift {
     display: flex;
     text-align: center;
@@ -213,7 +181,6 @@ li {
     margin: 10px auto;
     padding: 5px;
 }
-
 .fotoExten {
     width: 400px;
     margin: auto 20px;
@@ -223,14 +190,12 @@ li {
     width: 425px;
     margin: auto 20px;
 }
-
 .textoPestañas {
     background-color: rgb(145, 143, 141);
     width: 909px;
     height: 100px;
     font-size: larger;
 }
-
 .gridMaqui {
     background-color: rgb(204, 203, 199);
     border: 3px solid black;
@@ -244,16 +209,13 @@ li {
     justify-content: center;
     align-items: center;
 }
-
 .maqui {
     width: 200px;
 }
-
 .tit {
     display: flex;
     justify-content: center;
 }
-
 .promo,
 .formu {
     font-family: 'Amatic SC', cursive;
@@ -261,14 +223,12 @@ li {
     margin-left: 500px;
     text-align: justify;
 }
-
 .formu {
     background-color: rgb(204, 203, 199);
     border: 7px solid black;
     width: 300px;
     display: 500px;
 }
-
 @media (min-width: 992px) {
     .container {
         border: 4px solid rgb(41, 40, 40);
@@ -279,7 +239,6 @@ li {
         border: 1px dotted black;
     }
 }
-
 @media (min-width: 576px) and (max-width: 992px) {
     body {
         font-size: 14px;
@@ -299,7 +258,6 @@ li {
         align-items: center;
     }
 }
-
 @media (max-width: 576px) {
     body {
         font-size: 11px;
