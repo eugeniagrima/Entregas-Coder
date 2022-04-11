@@ -16,6 +16,12 @@ nav {
     color: black;
     font-family: 'Bebas Neue', cursive;
 }
+
+.navbar-collapse {
+flex-grow: initial;
+font-size: 1.3rem;
+}
+
 ul {
     display: flex;
     list-style-type: none;
