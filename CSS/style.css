@@ -76,7 +76,6 @@ li {
     align-items: center;
 }
 
-}
 .facial {
     height: auto;
     width: 200px;
@@ -219,6 +218,9 @@ li {
     border: 7px solid black;
     width: 300px;
     display: 500px;
+}
+footer li {
+    font-size: 5rem;
 }
 @media (min-width: 992px) {
     .contenedor {
