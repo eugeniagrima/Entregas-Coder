@@ -41,7 +41,7 @@ li {
     align-items: center;
     align-content: center;
 }
-.container {
+.contenedor {
     background-color: rgb(204, 203, 199);
     width: 50%;
     margin: auto;
@@ -236,7 +236,7 @@ li {
     display: 500px;
 }
 @media (min-width: 992px) {
-    .container {
+    .contenedor {
         border: 4px solid rgb(41, 40, 40);
         width: max-content;
     }
@@ -250,7 +250,7 @@ li {
         font-size: 14px;
     }
 
-    .container {
+    .contenedor {
         border: 4px solid black;
         width: max-content;
     }
@@ -273,7 +273,7 @@ li {
         padding: 30px;
     }
 
-    .container {
+    .contenedor {
         display: flex;
         flex-direction: column;
         width: 70%;
