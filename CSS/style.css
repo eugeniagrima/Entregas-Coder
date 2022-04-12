@@ -207,21 +207,21 @@ li {
     display: flex;
     justify-content: center;
 }
-.promo,
-.formu {
+.promo {
     font-family: 'Amatic SC', cursive;
     font-size: x-large;
-    margin-left: 500px;
-    text-align: justify;
+ width: 400px;
+ margin: auto;
 }
-.formu {
-    background-color: rgb(204, 203, 199);
-    border: 7px solid black;
-    width: 300px;
-    display: 500px;
-}
+
 .mb-3 {
-    width: 300px;
+    width: 400px;
+}
+.contForm {
+    background-color:rgb(133, 133, 133);
+    width: 400px;
+    margin: auto;
+
 }
 @media (min-width: 992px) {
     .contenedor {
