@@ -83,12 +83,8 @@ li {
 .muestrasFoto {
     width: 300px;
     align-items: center;
-    transition: all 1ms;
 }
-.muestrasFoto:hover {
-    height: 350px;
-    width: 350px;
-}
+
 .facial {
     height: auto;
     width: 200px;
