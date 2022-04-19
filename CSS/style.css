@@ -259,7 +259,17 @@ li {
         border: 1px dotted black;
     }
 }
-
+.footer {
+    background-color: dimgrey;
+    width: auto;
+    height: 200px;
+}
+.agusM {
+    text-align: center;
+}
+.redes {
+    display: inline-flex;
+    }
 @media (min-width: 576px) and (max-width: 992px) {
     body {
         font-size: 14px;
