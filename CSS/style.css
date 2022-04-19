@@ -197,8 +197,8 @@ li {
     background-color: rgb(204, 203, 199);
     border: 3px solid black;
     gap: 50px;
-    margin: auto;
-    padding: auto;
+    margin: auto auto 10px auto;
+    padding: 20px;
     width: 1000px;
     font-family: 'Amatic SC', cursive;
     font-size: larger;
