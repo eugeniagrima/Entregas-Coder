@@ -229,8 +229,9 @@ li {
 
 .contForm {
     background-color: rgb(133, 133, 133);
-    width: 400px;
-    margin: auto;
+    width: 450px;
+    margin: auto auto 100px auto;
+    text-align: left;
 
 }
 .carousel-inner {
