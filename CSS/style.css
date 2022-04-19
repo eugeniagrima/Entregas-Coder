@@ -164,46 +164,33 @@ li {
 }
 .tipos {
     background-color: rgb(204, 203, 199);
-    width: 915px;
+    width: 920px;
     font-family: 'Amatic SC', cursive;
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
     gap: 350px;
-    margin: auto;
+    margin: auto auto 100px auto;
     border: 3px solid black;
+    padding: 10px;
 }
 
-.exten {
-    display: flex;
-    text-align: center;
-    margin: 10px auto;
-    padding: 5px;
-}
-
-.lift {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 10px auto;
-    padding: 5px;
-}
-
-.fotoExten {
+.rounded {
     width: 400px;
     margin: auto 20px;
 }
-
-.fotoLift {
-    width: 425px;
-    margin: auto 20px;
+.continer {
+    padding: 20px;
+    border: 3px solid black;
+    margin: auto auto 100px auto;
 }
-
 .textoPestañas {
     background-color: rgb(145, 143, 141);
-    width: 909px;
-    height: 100px;
+    width: fit-content;
+    height: 120px;
+    text-align: center;
     font-size: larger;
+    margin: 10px;
 }
 
 .gridMaqui {
@@ -263,6 +250,7 @@ li {
 .redes {
     display: inline-flex;
     }
+ 
 @media (min-width: 992px) {
     .contenedor {
         border: 4px solid rgb(41, 40, 40);
