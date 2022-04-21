@@ -204,7 +204,19 @@ body {
   border-radius: 100px;
 }
 
-.imagenesFaciales,
+.mainT .mainT__imagenesFaciales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: xx-large;
+  padding: 5px;
+  margin: 5px;
+}
+
 .makeUp,
 .gale,
 .contactoTit,

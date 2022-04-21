@@ -154,10 +154,16 @@ body {
         width: 400px;
         border-radius: 100px;
     }
+    & &__imagenesFaciales {
+        display: flex;
+        justify-content: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: xx-large;
+        padding: 5px;
+        margin: 5px;
+    }
 }
 
-
-.imagenesFaciales,
 .makeUp,
 .gale,
 .contactoTit,
