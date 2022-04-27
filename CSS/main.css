@@ -91,7 +91,9 @@ body {
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
   border: 3px solid black;
-      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+      grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -136,7 +138,6 @@ body {
 }
 
 .main .main__muestrasFoto {
-  width: 300px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

@@ -1,0 +1,8 @@
+@mixin sizes-img ($width, $border) {
+    width: $width;
+    border: $border;
+}
+    .main__muestrasFoto {
+        @include size-image (300px, 1px dotted black)
+    }
+    

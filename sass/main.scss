@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 @import "vars";
+@import "mixins";
+
 
 body {
     background-color: #ADA996;
@@ -285,6 +286,7 @@ body {
     }
 
     .main__muestrasFoto {
+        width: 300px;
         border: 1px dotted black;
     }
 }
