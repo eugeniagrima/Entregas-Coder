@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @import "vars";
+
 body {
     background-color: #ADA996;
     background: #ADA996;
@@ -110,17 +112,24 @@ body {
         align-items: center;
     }
 }
+
 .footer {
     background-color: dimgrey;
     width: auto;
     height: 200px;
+
     & &__redes {
         display: inline-flex;
+        list-style-type: none;
+        display: flex;
+    justify-content: center;
     }
+
     & &__agusM {
         text-align: center;
     }
 }
+
 .mainT {
     & &__fotosFacial {
         display: grid;
@@ -131,10 +140,12 @@ body {
         margin: auto;
         justify-content: space-between;
         padding: 20px;
-    } 
+    }
+
     & &__facial {
         width: 200px;
     }
+
     & &__tiposFaciales {
         background-color: $colorPrincipal;
         width: 500px;
@@ -149,11 +160,13 @@ body {
         font-size: larger;
         transition: all 1ms;
     }
+
     & &__tiposFaciales:hover {
         height: 400px;
         width: 400px;
         border-radius: 100px;
     }
+
     & &__imagenesFaciales {
         display: flex;
         justify-content: center;

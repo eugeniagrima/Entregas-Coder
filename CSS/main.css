@@ -91,9 +91,7 @@ body {
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
   border: 3px solid black;
-      grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -154,13 +152,20 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer .footer__agusM {
   text-align: center;
 }
 
-.fotosFacial {
+.mainT .mainT__fotosFacial {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 200px 200px 200px;
@@ -175,7 +180,50 @@ body {
   padding: 20px;
 }
 
-.imagenesFaciales,
+.mainT .mainT__facial {
+  width: 200px;
+}
+
+.mainT .mainT__tiposFaciales {
+  background-color: #cccbc7;
+  width: 500px;
+  margin: 100px auto;
+  padding: 100px auto;
+  list-style-type: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  border-radius: 80px;
+  font-family: 'Amatic SC', cursive;
+  font-size: larger;
+  -webkit-transition: all 1ms;
+  transition: all 1ms;
+}
+
+.mainT .mainT__tiposFaciales:hover {
+  height: 400px;
+  width: 400px;
+  border-radius: 100px;
+}
+
+.mainT .mainT__imagenesFaciales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: xx-large;
+  padding: 5px;
+  margin: 5px;
+}
+
 .makeUp,
 .gale,
 .contactoTit,
@@ -202,37 +250,6 @@ body {
   font-family: 'Amatic SC', cursive;
   margin: auto;
   font-size: x-large;
-}
-
-.tiposFaciales {
-  background-color: #cccbc7;
-  width: 500px;
-  margin: 100px auto;
-  padding: 100px auto;
-  list-style-type: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  justify-items: center;
-  border-radius: 80px;
-  font-family: 'Amatic SC', cursive;
-  font-size: larger;
-  -webkit-transition: all 1ms;
-  transition: all 1ms;
-}
-
-.tiposFaciales:hover {
-  height: 400px;
-  width: 400px;
-  border-radius: 100px;
-}
-
-.facial {
-  width: 200px;
 }
 
 .tipos {
@@ -365,7 +382,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
-  .fotosFacial {
+  .mainT__fotosFacial {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -411,7 +428,7 @@ body {
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
-  .fotosFacial {
+  .mainT__fotosFacial {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
