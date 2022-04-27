@@ -1,0 +1,21 @@
+%recuadro-seccion {
+    background-color: #cccbc7;
+    border: 3px solid black;
+}
+
+.main__contenedor {
+    @extend %recuadro-seccion;
+    width: 50%;
+}
+.mainT__fotosFacial {
+    @extend %recuadro-seccion;
+    width: 915px;
+}
+.continer {
+    @extend %recuadro-seccion;
+    width: 80%;
+}
+.gridMaqui {
+    @extend %recuadro-seccion;
+    width: 1000px;
+}

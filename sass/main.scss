@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @import "vars";
-@import "mixins";
-
+@import "extend";
+@import "map";
 
 body {
     background-color: #ADA996;
@@ -66,12 +66,9 @@ body {
     }
 
     & &__contenedor {
-        background-color: $colorPrincipal;
-        width: 50%;
         margin: auto;
         display: grid;
         grid-template-columns: 2fr;
-        border: $borderBox;
         grid-template-areas:
             "header header header header"
             "main main main main"
@@ -135,9 +132,6 @@ body {
     & &__fotosFacial {
         display: grid;
         grid-template-columns: 200px 200px 200px;
-        width: 915px;
-        background-color: $colorPrincipal;
-        border: $borderBox;
         margin: auto;
         justify-content: space-between;
         padding: 20px;
@@ -218,7 +212,6 @@ body {
 
 .continer {
     padding: 20px;
-    border: $borderBox;
     margin: auto auto 100px auto;
 }
 
@@ -232,12 +225,9 @@ body {
 }
 
 .gridMaqui {
-    background-color: $colorPrincipal;
-    border: $borderBox;
     gap: 50px;
     margin: auto auto 10px auto;
     padding: 20px;
-    width: 1000px;
     font-family: 'Amatic SC', cursive;
     font-size: larger;
     display: flex;
