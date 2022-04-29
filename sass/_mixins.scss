@@ -3,6 +3,6 @@
     border: $border;
 }
     .main__muestrasFoto {
-        @include size-image (300px, 1px dotted black)
+        @include size-image (300px 1px dotted black)
     }
     

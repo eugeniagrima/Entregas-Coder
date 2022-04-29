@@ -73,10 +73,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Amatic SC', cursive;
+          font-family: 'Amatic SC', cursive;
+          font-family: 'Heebo', sans-serif;
   font-size: xxx-large;
   -webkit-animation: mi-animacion 2s linear 3s;
           animation: mi-animacion 2s linear 3s;
+          padding: 10px;
 }
 
 @-webkit-keyframes mi-animacion {
@@ -113,12 +115,15 @@ body {
   display: grid;
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
-      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+      grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-}
+          padding: 0 auto;
+  }
 
 .main .main__foto {
   display: -ms-grid;
