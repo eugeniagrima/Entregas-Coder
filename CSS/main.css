@@ -27,10 +27,6 @@
   width: 1000px;
 }
 
-.footerV {
-  background-color: yellow;
-}
-
 body {
   background-color: #ADA996;
   background: #ADA996;
@@ -42,7 +38,7 @@ body {
 }
 
 .navbar {
-  background-color: #696969;
+  background-color: white;
   color: black;
   font-family: 'Bebas Neue', cursive;
 }
@@ -73,12 +69,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-          font-family: 'Amatic SC', cursive;
-          font-family: 'Heebo', sans-serif;
+  font-family: 'Heebo', sans-serif;
   font-size: xxx-large;
   -webkit-animation: mi-animacion 2s linear 3s;
           animation: mi-animacion 2s linear 3s;
-          padding: 10px;
 }
 
 @-webkit-keyframes mi-animacion {
@@ -115,15 +109,12 @@ body {
   display: grid;
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
-      grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-          padding: 0 auto;
-  }
+}
 
 .main .main__foto {
   display: -ms-grid;
@@ -246,6 +237,11 @@ body {
   font-size: xx-large;
   padding: 5px;
   margin: 5px;
+}
+
+.main, .mainT {
+  background: url(/Img/fondo-pantalla.jpg) no-repeat 0px 0px;
+  background-size: cover;
 }
 
 .makeUp,

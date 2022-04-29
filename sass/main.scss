@@ -5,8 +5,7 @@
 }
 @import "vars";
 @import "extend";
-@import "map";
-@import "footer";
+
 
 body {
     background-color: #ADA996;
@@ -20,7 +19,7 @@ body {
 
 .navbar {
     & {
-        background-color: #696969;
+        background-color: white;
         color: black;
         font-family: 'Bebas Neue', cursive;
     }
@@ -45,7 +44,7 @@ body {
     & &__ppalDiv {
         display: flex;
         justify-content: center;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Heebo', sans-serif;
         font-size: xxx-large;
         animation: mi-animacion 2s linear 3s;
     }
@@ -173,6 +172,10 @@ body {
     }
 }
 
+.main, .mainT {
+    background: url(/Img/fondo-pantalla.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
 .makeUp,
 .gale,
 .contactoTit,

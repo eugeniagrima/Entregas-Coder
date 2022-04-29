@@ -1,9 +1,0 @@
-$fondo-footer-premium: (
-    fondo-premium: yellow
-);
-$fondo-footer-standard: (
-    fondo-standard: dimgrey
-);
-.footerV {
-    background-color: map-get($fondo-footer-premium, fondo-premium);
-}
