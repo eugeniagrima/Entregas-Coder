@@ -104,9 +104,11 @@
     background-color: black;
     width: 50px;
 }
+
 .carousel-indicators {
     flex-direction: column;
 }
+
 .footer {
     background-color: $colorPrincipal;
     width: auto;
@@ -127,6 +129,7 @@
         font-size: 1.2rem;
     }
 }
+
 .footerM {
     background-color: $colorPrincipal;
     width: auto;
@@ -135,7 +138,7 @@
     position: sticky;
     margin: 400px auto 1px auto;
 
-.footer__redes {
+    .footer__redes {
         display: inline-flex;
         list-style-type: none;
         display: flex;
@@ -143,57 +146,13 @@
         gap: 10px;
     }
 
-.footer__agusM {
+    .footer__agusM {
         text-align: center;
         font-size: 1.2rem;
-}
-}
-.mainT {
-    & &__fotosFacial {
-        display: grid;
-        grid-template-columns: 200px 200px 200px;
-        margin: auto;
-        justify-content: space-between;
-        padding: 20px;
-    }
-
-    & &__facial {
-        width: 200px;
-    }
-
-    & &__tiposFaciales {
-        background-color: $colorPrincipal;
-        width: 500px;
-        margin: 100px auto;
-        padding: 100px auto;
-        list-style-type: none;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        border-radius: 80px;
-        font-family: 'Heebo', sans-serif;
-        font-size: larger;
-        transition: all 1ms;
-    }
-
-    & &__tiposFaciales:hover {
-        height: 400px;
-        width: 400px;
-        border-radius: 100px;
-    }
-
-    & &__imagenesFaciales {
-        display: flex;
-        justify-content: center;
-        font-family: 'Heebo', sans-serif;
-        font-size: xx-large;
-        padding: 5px;
-        margin: 5px;
     }
 }
 
-.main,
-.mainT {
+.main {
     background-color: $colorPrincipal;
 }
 
@@ -209,7 +168,7 @@
     margin: 5px;
 }
 
-.pestañasTit {
+.pestañasTit, .tratamientosTit {
     display: flex;
     justify-content: center;
     font-family: 'Heebo', sans-serif;
@@ -247,11 +206,6 @@
     text-align: center;
     font-size: larger;
     margin: 5px;
-}
-
-.foto {
-    width: 200px;
-    display: flex;
 }
 
 .gridMaqui {
@@ -308,9 +262,11 @@
     .continer {
         border: 4px solid rgb(41, 40, 40);
     }
-.gridMaqui {
-    border: 4px solid rgb(41, 40, 40);
-}
+
+    .gridMaqui {
+        border: 4px solid rgb(41, 40, 40);
+    }
+
     .textoPestañas {
         height: fit-content;
     }
@@ -320,9 +276,6 @@
         border: 1px dotted black;
     }
 
-    .mainT__fotosFacial {
-        border: 4px solid rgb(41, 40, 40);
-    }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -350,17 +303,7 @@
         align-items: center;
     }
 
-    .mainT__fotosFacial {
-        width: 240px;
-    }
-
-    .foto {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .textoPestañas {
+      .textoPestañas {
         height: auto;
     }
 }
@@ -400,23 +343,7 @@
         transform: rotate(15deg);
     }
 
-    .mainT__fotosFacial {
-        width: 250px;
-        display: block;
-    }
-
-    .foto {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .tiposFaciales {
-        width: 250px;
-    }
-
-    .gridMaqui {
+        .gridMaqui {
         flex-direction: column;
         width: 250px;
         gap: 5px;
