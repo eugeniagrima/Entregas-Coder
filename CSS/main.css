@@ -7,7 +7,7 @@
 }
 
 .main__contenedor, .mainT__fotosFacial, .continer, .gridMaqui {
-  background-color: #cccbc7;
+  background-color: white;
   border: 3px solid black;
 }
 
@@ -126,15 +126,13 @@ body {
 }
 
 .main .main__presentacionDiv {
-  background-color: #e6e0e0;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   width: 300px;
   height: 300px;
   text-align: justify;
   font-size: 2rem;
   margin: 10px;
   padding: auto;
-  border: 1px dotted black;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -161,7 +159,7 @@ body {
 }
 
 .footer {
-  background-color: dimgrey;
+  background-color: white;
   width: auto;
   height: 200px;
 }
@@ -177,6 +175,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 10px;
 }
 
 .footer .footer__agusM {
@@ -200,7 +199,7 @@ body {
 }
 
 .mainT .mainT__tiposFaciales {
-  background-color: #cccbc7;
+  background-color: white;
   width: 500px;
   margin: 100px auto;
   padding: 100px auto;
@@ -214,7 +213,7 @@ body {
           justify-content: center;
   justify-items: center;
   border-radius: 80px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   font-size: larger;
   -webkit-transition: all 1ms;
   transition: all 1ms;
@@ -233,15 +232,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   font-size: xx-large;
   padding: 5px;
   margin: 5px;
 }
 
 .main, .mainT {
-  background: url(/Img/fondo-pantalla.jpg) no-repeat 0px 0px;
-  background-size: cover;
+  background-color: white;
 }
 
 .makeUp,
@@ -254,7 +252,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   font-size: xx-large;
   padding: 5px;
   margin: 5px;
@@ -267,15 +265,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   margin: auto;
   font-size: x-large;
 }
 
 .tipos {
-  background-color: #cccbc7;
+  background-color: white;
   width: 920px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100px 100px;
@@ -313,7 +311,7 @@ body {
   gap: 50px;
   margin: auto auto 10px auto;
   padding: 20px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   font-size: larger;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -340,7 +338,7 @@ body {
 }
 
 .promo {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Heebo', sans-serif;
   font-size: x-large;
   width: 400px;
   margin: auto;

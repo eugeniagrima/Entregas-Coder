@@ -19,7 +19,7 @@ body {
 
 .navbar {
     & {
-        background-color: white;
+        background-color: $colorPrincipal;
         color: black;
         font-family: 'Bebas Neue', cursive;
     }
@@ -86,15 +86,13 @@ body {
     }
 
     & &__presentacionDiv {
-        background-color: rgb(230, 224, 224);
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Heebo', sans-serif;
         width: 300px;
         height: 300px;
         text-align: justify;
         font-size: 2rem;
         margin: 10px;
         padding: auto;
-        border: 1px dotted black;
         align-items: center;
     }
 
@@ -112,7 +110,7 @@ body {
 }
 
 .footer {
-    background-color: dimgrey;
+    background-color: $colorPrincipal;
     width: auto;
     height: 200px;
 
@@ -121,6 +119,7 @@ body {
         list-style-type: none;
         display: flex;
     justify-content: center;
+    gap: 10px;
     }
 
     & &__agusM {
@@ -151,7 +150,7 @@ body {
         justify-content: center;
         justify-items: center;
         border-radius: 80px;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Heebo', sans-serif;
         font-size: larger;
         transition: all 1ms;
     }
@@ -165,7 +164,7 @@ body {
     & &__imagenesFaciales {
         display: flex;
         justify-content: center;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Heebo', sans-serif;
         font-size: xx-large;
         padding: 5px;
         margin: 5px;
@@ -173,8 +172,7 @@ body {
 }
 
 .main, .mainT {
-    background: url(/Img/fondo-pantalla.jpg) no-repeat 0px 0px;
-    background-size: cover;
+    background-color: $colorPrincipal;
 }
 .makeUp,
 .gale,
@@ -182,7 +180,7 @@ body {
 .presentacionDiv {
     display: flex;
     justify-content: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: xx-large;
     padding: 5px;
     margin: 5px;
@@ -191,7 +189,7 @@ body {
 .pestañasTit {
     display: flex;
     justify-content: center;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Heebo', sans-serif;
     margin: auto;
     font-size: x-large;
 }
@@ -199,7 +197,7 @@ body {
 .tipos {
     background-color: $colorPrincipal;
     width: 920px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Heebo', sans-serif;
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 100px 100px;
@@ -232,7 +230,7 @@ body {
     gap: 50px;
     margin: auto auto 10px auto;
     padding: 20px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: larger;
     display: flex;
     justify-content: center;
@@ -249,7 +247,7 @@ body {
 }
 
 .promo {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: x-large;
     width: 400px;
     margin: auto;
