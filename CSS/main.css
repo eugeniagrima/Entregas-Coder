@@ -175,6 +175,7 @@
 
 .footer .footer__agusM {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .mainT .mainT__fotosFacial {
@@ -363,6 +364,14 @@
     width: -moz-max-content;
     width: max-content;
   }
+  .continer {
+    border: 4px solid #292828;
+  }
+  .textoPestañas {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   .main__muestrasFoto {
     width: 300px;
     border: 1px dotted black;
@@ -378,6 +387,15 @@
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
+  }
+  .textoPestañas {
+    height: auto;
+  }
+  .rounded.float-start, .rounded.float-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
   }
   .main__muestras {
     display: -ms-grid;
@@ -403,6 +421,9 @@
     width: 250px;
     gap: 5px;
   }
+  .textoPestañas {
+    height: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -422,6 +443,15 @@
             flex-direction: column;
     width: 70%;
     width: 300px;
+  }
+  .textoPestañas {
+    height: auto;
+  }
+  .rounded.float-start, .rounded.float-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
   }
   .main__muestras {
     display: -webkit-box;
