@@ -147,7 +147,8 @@
   height: 200px;
 }
 
-.carousel-control-prev, .carousel-control-next {
+.carousel-control-prev,
+.carousel-control-next {
   background-color: black;
   width: 50px;
 }
@@ -234,7 +235,8 @@
   margin: 5px;
 }
 
-.main, .mainT {
+.main,
+.mainT {
   background-color: white;
 }
 
@@ -301,6 +303,13 @@
   text-align: center;
   font-size: larger;
   margin: 5px;
+}
+
+.foto {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .gridMaqui {
@@ -376,6 +385,9 @@
     width: 300px;
     border: 1px dotted black;
   }
+  .mainT__fotosFacial {
+    border: 4px solid #292828;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
@@ -388,10 +400,8 @@
     width: -moz-max-content;
     width: max-content;
   }
-  .textoPestañas {
-    height: auto;
-  }
-  .rounded.float-start, .rounded.float-end {
+  .rounded.float-start,
+  .rounded.float-end {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -411,6 +421,9 @@
             align-items: center;
   }
   .mainT__fotosFacial {
+    width: 240px;
+  }
+  .foto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -418,8 +431,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 250px;
-    gap: 5px;
+    padding: 10px;
   }
   .textoPestañas {
     height: auto;
@@ -447,7 +459,8 @@
   .textoPestañas {
     height: auto;
   }
-  .rounded.float-start, .rounded.float-end {
+  .rounded.float-start,
+  .rounded.float-end {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -468,6 +481,11 @@
             transform: rotate(15deg);
   }
   .mainT__fotosFacial {
+    width: 250px;
+    display: block;
+  }
+  .foto {
+    padding: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -475,7 +493,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 250px;
     gap: 5px;
   }
   .tiposFaciales {
