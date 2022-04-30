@@ -104,12 +104,15 @@
     background-color: black;
     width: 50px;
 }
-
+.carousel-indicators {
+    flex-direction: column;
+}
 .footer {
     background-color: $colorPrincipal;
     width: auto;
-    height: 200px;
+    height: 20px;
     padding: 200px;
+    position: sticky;
 
     & &__redes {
         display: inline-flex;
@@ -124,7 +127,27 @@
         font-size: 1.2rem;
     }
 }
+.footerM {
+    background-color: $colorPrincipal;
+    width: auto;
+    height: 20px;
+    padding: 200px;
+    position: sticky;
+    margin: 400px auto 1px auto;
 
+.footer__redes {
+        display: inline-flex;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+.footer__agusM {
+        text-align: center;
+        font-size: 1.2rem;
+}
+}
 .mainT {
     & &__fotosFacial {
         display: grid;
@@ -285,7 +308,9 @@
     .continer {
         border: 4px solid rgb(41, 40, 40);
     }
-
+.gridMaqui {
+    border: 4px solid rgb(41, 40, 40);
+}
     .textoPestañas {
         height: fit-content;
     }

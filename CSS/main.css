@@ -153,11 +153,20 @@
   width: 50px;
 }
 
+.carousel-indicators {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .footer {
   background-color: white;
   width: auto;
-  height: 200px;
+  height: 20px;
   padding: 200px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .footer .footer__redes {
@@ -175,6 +184,35 @@
 }
 
 .footer .footer__agusM {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.footerM {
+  background-color: white;
+  width: auto;
+  height: 20px;
+  padding: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 400px auto 1px auto;
+}
+
+.footerM .footer__redes {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.footerM .footer__agusM {
   text-align: center;
   font-size: 1.2rem;
 }
@@ -374,6 +412,9 @@
     width: max-content;
   }
   .continer {
+    border: 4px solid #292828;
+  }
+  .gridMaqui {
     border: 4px solid #292828;
   }
   .textoPestañas {
