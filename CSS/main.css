@@ -318,9 +318,19 @@
 
 .promo {
   font-family: 'Heebo', sans-serif;
-  font-size: x-large;
   width: 400px;
+  font-size: 1.3rem;
+  padding: 10px;
   margin: auto;
+}
+
+.form-label {
+  margin: 1px;
+  font-size: 1.3rem;
+}
+
+.contBd {
+  margin: 20px 5px 5px auto;
 }
 
 .mb-3 {
@@ -328,10 +338,13 @@
 }
 
 .contForm {
-  background-color: #858585;
-  width: 450px;
+  background: url(../Img/fondo-contacto.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  width: 700px;
+  height: 450px;
   margin: auto auto 100px auto;
   text-align: left;
+  padding: 20px;
 }
 
 .carousel-inner {
@@ -449,5 +462,12 @@
     width: 250px;
     gap: 5px;
     padding: 3px;
+  }
+  .contForm {
+    width: 300px;
+    height: 400px;
+  }
+  .form-control {
+    width: auto;
   }
 }
