@@ -93,10 +93,18 @@
 .row {
     padding: 40px;
 }
+.carousel {
+    height: 200px;
+}
+.carousel-control-prev, .carousel-control-next {
+    background-color: black;
+    width: 50px;
+    }
 .footer {
     background-color: $colorPrincipal;
     width: auto;
     height: 200px;
+    padding: 200px;
 
     & &__redes {
         display: inline-flex;
@@ -204,10 +212,10 @@
 .textoPestañas {
     background-color: rgb(145, 143, 141);
     width: fit-content;
-    height: 120px;
+    height: 240px;
     text-align: center;
     font-size: larger;
-    margin: 10px;
+    margin: 5px;
 }
 
 .gridMaqui {
@@ -257,10 +265,11 @@
 
 @media (min-width: 992px) {
     .main__contenedor {
-        border: 4px solid rgb(41, 40, 40);
-        width: max-content;
+       @extend %recuadro-big;
     }
-
+.continer {
+    @extend %recuadro-big;
+}
     .main__muestrasFoto {
         width: 300px;
         border: 1px dotted black;

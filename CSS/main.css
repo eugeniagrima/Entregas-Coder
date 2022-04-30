@@ -143,10 +143,20 @@
   padding: 40px;
 }
 
+.carousel {
+  height: 200px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background-color: black;
+  width: 50px;
+}
+
 .footer {
   background-color: white;
   width: auto;
   height: 200px;
+  padding: 200px;
 }
 
 .footer .footer__redes {
@@ -286,10 +296,10 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 120px;
+  height: 240px;
   text-align: center;
   font-size: larger;
-  margin: 10px;
+  margin: 5px;
 }
 
 .gridMaqui {
