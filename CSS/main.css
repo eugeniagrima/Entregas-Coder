@@ -116,23 +116,14 @@ body {
           align-items: stretch;
 }
 
-.main .main__foto {
-  display: -ms-grid;
-  display: grid;
-  width: 300px;
-  margin: 10px;
-  padding: auto;
-  border: 1px dotted black;
-}
-
 .main .main__presentacionDiv {
   font-family: 'Heebo', sans-serif;
-  width: 300px;
-  height: 300px;
-  text-align: justify;
-  font-size: 2rem;
-  margin: 10px;
-  padding: auto;
+  width: 250px;
+  height: 280px;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 10px auto 10px auto;
+  padding: 10px auto 10px auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -156,6 +147,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.row {
+  padding: 40px;
 }
 
 .footer {
@@ -426,8 +421,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 70%;
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg);
+    width: 300px;
   }
   .main__muestras {
     display: -webkit-box;
