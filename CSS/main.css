@@ -108,11 +108,11 @@
 
 .main .main__presentacionDiv {
   font-family: 'Heebo', sans-serif;
-  width: 250px;
+  width: 215px;
   height: 280px;
   text-align: center;
   font-size: 1.6rem;
-  margin: 10px auto 10px auto;
+  margin: 30px;
   padding: 10px auto 10px auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
