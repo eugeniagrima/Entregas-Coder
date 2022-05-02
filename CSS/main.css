@@ -237,7 +237,8 @@
   margin: 5px;
 }
 
-.pestañasTit, .tratamientosTit {
+.pestañasTit,
+.tratamientosTit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,6 +440,7 @@
     display: -ms-flexbox;
     display: flex;
     padding: 10px;
+    width: 100%;
   }
   .main__muestras {
     display: -webkit-box;
@@ -469,9 +471,5 @@
   }
   .form-control {
     width: auto;
-  }
-  .rounded.float-start,
-  .rounded.float-end {
-    width: 200%;
   }
 }

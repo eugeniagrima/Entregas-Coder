@@ -168,7 +168,8 @@
     margin: 5px;
 }
 
-.pestañasTit, .tratamientosTit {
+.pestañasTit,
+.tratamientosTit {
     display: flex;
     justify-content: center;
     font-family: 'Heebo', sans-serif;
@@ -240,9 +241,11 @@
     margin: 1px;
     font-size: 1.3rem;
 }
+
 .contBd {
     margin: 20px 5px 5px auto;
 }
+
 .mb-3 {
     width: 400px;
 }
@@ -314,7 +317,7 @@
         align-items: center;
     }
 
-      .textoPestañas {
+    .textoPestañas {
         height: auto;
     }
 }
@@ -343,6 +346,7 @@
     .rounded.float-end {
         display: flex;
         padding: 10px;
+        width: 100%;
     }
 
     .main__muestras {
@@ -354,20 +358,20 @@
         transform: rotate(15deg);
     }
 
-        .gridMaqui {
+    .gridMaqui {
         flex-direction: column;
         width: 250px;
         gap: 5px;
         padding: 3px;
     }
+
     .contForm {
         width: 300px;
         height: 400px;
     }
+
     .form-control {
         width: auto;
     }
-    .rounded.float-start, .rounded.float-end {
-        width: 200%;
-    }
+
 }
