@@ -27,6 +27,12 @@
   width: 1000px;
 }
 
+.rounded.float-start {
+  width: 300px;
+  padding: 20px;
+  background-color: black;
+}
+
 .navbar {
   background-color: white;
   color: black;
