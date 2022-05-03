@@ -1,8 +1,0 @@
-@mixin size-image {
-    width: 300px;
-    padding: 20px;
-    background-color: black;
-}
-.rounded.float-start {
-        @include size-image;
-    }
