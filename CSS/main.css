@@ -195,6 +195,8 @@
   position: -webkit-sticky;
   position: sticky;
   margin: 400px auto 1px auto;
+  padding: 200px;
+  position: sticky;
 }
 
 .footerM .footer__redes {
@@ -214,7 +216,6 @@
 .footerM .footer__agusM {
   text-align: center;
   font-size: 1.2rem;
-  padding: 200px;
 }
 
 .main {
