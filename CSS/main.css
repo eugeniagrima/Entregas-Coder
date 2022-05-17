@@ -192,7 +192,6 @@
   background-color: white;
   width: auto;
   height: 20px;
-  padding: 200px;
   position: -webkit-sticky;
   position: sticky;
   margin: 400px auto 1px auto;
@@ -215,6 +214,7 @@
 .footerM .footer__agusM {
   text-align: center;
   font-size: 1.2rem;
+  padding: 200px;
 }
 
 .main {

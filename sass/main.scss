@@ -113,7 +113,7 @@
     background-color: $colorPrincipal;
     width: auto;
     height: 20px;
-    padding: 200px;
+   padding: 200px;
     position: sticky;
 
     & &__redes {
@@ -134,7 +134,7 @@
     background-color: $colorPrincipal;
     width: auto;
     height: 20px;
-    padding: 200px;
+   
     position: sticky;
     margin: 400px auto 1px auto;
 
@@ -149,6 +149,7 @@
     .footer__agusM {
         text-align: center;
         font-size: 1.2rem;
+        padding: 200px;
     }
 }
 
