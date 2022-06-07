@@ -10,5 +10,5 @@ else {
 }
 for (let i= 1; i <= 8; i++) {
     let ingreseSuNombre = prompt ("Ingresá tu nombre"); 
-    alert( ingreseSuNombre + " " + "tenés" + " " + i + " " + " " + "minutos de espera para acceder al chat");
+    alert( ingreseSuNombre + " " + "tenés" + " " + i + " " + "minutos de espera para acceder al chat");
 }
