@@ -12,3 +12,7 @@ for (let i= 2; i <= 8; i++) {
     let ingreseSuNombre = prompt ("Ingresá tu nombre"); 
     alert( ingreseSuNombre + " " + "tenés" + " " + i + " " + "minutos de espera para acceder al chat");
 }
+function QueEstasBuscando() {
+    alert ("Contanos qué estás buscando!");
+}
+QueEstasBuscando();
