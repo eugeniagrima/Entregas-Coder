@@ -19,6 +19,6 @@ function CuantasVecesTeAtendiste() {
     let operador = prompt("+, -, * o /?")
     let num1 = Number (prompt("Ingresá el primer número"));
     let num2 = Number (prompt("Ingresá el segundo número"));
-   alert ("Pensás que tenemos ${calculadora (num1, num2, operador)} consultas diarias");
+   alert ("Pensás que tenemos" + " "+ calculadora(num1, num2, operador) + " " + "consultas diarias")
 }
 CuantasVecesTeAtendiste()
