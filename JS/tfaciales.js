@@ -11,3 +11,7 @@ console.log (tratamiento1);
 console.log (tratamiento2);
 console.log (tratamiento3);
 console.log (tratamiento4);
+
+const tratamientos = ["Higiene Base", "Higiene Plus", "Citrus Essence", "Infusión Hialurónico"];
+console.log (tratamientos.find (nombre => nombre === "Citrus Essence"));
+console.log (tratamientos.filter (nombre => nombre === "Higiene Base"));
