@@ -4,3 +4,4 @@ const preciosPestanias = [
 ]
 const totalPestanias = preciosPestanias.reduce((acc, el) => acc + el.precio, 0);
 console.log(totalPestanias);
+//NO ME SALE NADA EN LA CONSOLA
