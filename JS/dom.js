@@ -8,6 +8,6 @@ for (let comentario of preguntasFrecuentes) {
     comentarios.append(lista);
 }
 
-const inputComent = document.querySelector ("#areatexto");
+const inputComent = document.querySelector("#areaTexto");
 inputComent.value = "Dejanos aca tus comentarios!"; 
 console.log (inputComent.value);
