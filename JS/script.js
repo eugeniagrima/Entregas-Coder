@@ -1,6 +1,6 @@
 const fecha = new Date ();
 console.log (Date)
-alert ("Bienvenida!" + " " + "hoy es" + " " + Date ())
+fecha.innerText = prompt ("Bienvenida!" + " " + "hoy es" + " " + Date ())
 let nombreUsuario = prompt ("Ingresá tu nombre completo")
 let edadUsuario = prompt ("Ingresá tu edad")
 alert ("Tu nombre es" + " " + nombreUsuario + " " + "y tenés" + " " + edadUsuario + " " + "años");
