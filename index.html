@@ -54,11 +54,11 @@
     </header>
     <main class="main">
         <div>
-            <h1 class="main__ppalDiv">AMA TU SKIN</h1>
+            <h1 id="prueba" class="main__ppalDiv">AMA TU SKIN</h1>
         </div>
         <div class="main__contenedor">
             <div>
-                <p class="main__presentacionDiv"> Bienvenida al mundo AM, donde vas a encontrar los mejores tips de belleza para cuidar tu piel como se lo merece!</p>
+                <p id="prueba_presentacion"  class="main__presentacionDiv"> Bienvenida al mundo AM, donde vas a encontrar los mejores tips de belleza para cuidar tu piel como se lo merece!</p>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -117,6 +117,15 @@
             </p>
         </div>
     </footer>
+    <div id="contFormulario">
+<p>Ingresá tus datos para empezar!</p>
+<form id="formularioI" action="">
+<input id="nombreUsuario" type="text" placeholder="nombre">
+<input id="apellidoUsuario" type="text" placeholder="apellido">
+<input id="edadUsuario" type="number" placeholder="edad">
+<input value="enviar" type="submit">
+</form>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>
@@ -125,6 +134,7 @@
     </script>
     <script src="./JS/script.js"></script>
     <script src="./JS/eventos.js"></script>
+    <script src="./JS/storage.js"></script>
 </body>
 
 </html>
