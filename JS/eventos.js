@@ -2,8 +2,8 @@ const contenedor = document.getElementById("prueba_contenedor");
 const presentacion = document.getElementById("prueba_presentacion");
 const prueba = document.getElementById("prueba");
 prueba.addEventlistener("mouseover", () => {
-    presentacion.style.backgroundcolor = "grey";
-    prueba.style.color = "green";
+    presentacion.style.backgroundcolor = "red";
+    prueba.style.color = "blue";
 });
 
 prueba.onmouseout = () => {
