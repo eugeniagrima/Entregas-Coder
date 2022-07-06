@@ -49,3 +49,19 @@ const { value: text } = await Swal.fire({
     },
     inputValue: 25
   })
+  const { value: accept } = await Swal.fire({
+    title: 'Términos y condiciones',
+    input: 'checkbox',
+    inputValue: 1,
+    inputPlaceholder:
+      'Acepto los términos y condiciones',
+    confirmButtonText:
+      'Continuar <i class="fa fa-arrow-right"></i>',
+    inputValidator: (result) => {
+      return !result && 'Tenés que aceptar los T&C'
+    }
+  })
+  
+  if (accept) {
+    Swal.fire('Aceptaste los T&C :)')
+  }
