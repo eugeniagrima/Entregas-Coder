@@ -1,7 +1,9 @@
 const preciosPestanias = [
-    { nombre: "Extension", precio: 3200 },
-    { nombre: "Lifting", precio: 3350 }
+    { nombre: "Extension", precio1: 3200 },
+    { nombre: "Lifting", precio2: 3350 }
 ]
 const totalPestanias = preciosPestanias.reduce((acc, el) => acc + el.precio, 0);
 console.log(totalPestanias);
-//NO ME SALE NADA EN LA CONSOLA
+
+Swal.fire('El precio de la extensión es $3200 y el del lifting $3350');
+
