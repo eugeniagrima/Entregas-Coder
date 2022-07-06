@@ -99,7 +99,9 @@
   display: grid;
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
-      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+      grid-template-areas: "header header header header"
+ "main main main main"
+ "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -342,13 +344,19 @@
 .contForm {
   background: url(../Img/fondo-contacto.jpg) no-repeat 0px 0px;
   background-size: cover;
-  width: 700px;
-  height: 450px;
+  width: 800px;
+  height: 550px;
   margin: auto auto 100px auto;
   text-align: left;
   padding: 20px;
 }
-
+.adivinanzaConsultas, .adivinanza {
+  font-family: 'Heebo', sans-serif;
+    width: 400px;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin: left;
+}
 .carousel-inner {
   width: 500px;
   height: 600px;
