@@ -7,23 +7,34 @@ const edadUsuarioU = document.querySelector("#edadUsuarioU");
 const contFormulario = document.querySelector("#contFormulario");
 const contenidoO = document.querySelector("#contenidoO");
 
+const botonPrueba = document.getElementById("enviarPrueba");
+
 formularioIu.addEventListener("submit", (e) => {
-e.preventDefault();
-//nombreUsuarioU = nombreUsuarioU.value;
-//apellidoUsuarioU = apellidoUsuarioU.value;
-//edadUsuarioU = edadUsuarioU.value;
-localStorage.setItem("nombre", nombreUsuarioU.value);
-localStorage.setItem("apellido", apellidoUsuarioU.value);
-localStorage.setItem("edad", edadUsuarioU.value);
+    e.preventDefault();
+    localStorage.setItem("nombre", nombreUsuarioU.value);
+    localStorage.setItem("apellido", apellidoUsuarioU.value);
+    localStorage.setItem("edad", edadUsuarioU.value);
 })
-const ocultarForulario = () => {
-    contFormulario.style.display = "none";
-    contenidoO.innerText = `Hola ${nombreUsuarioU} ${apellidoUsuarioU} Tenés ${edadUusarioU} años.`; //NO SE PORQUE ME QUEDA ASI!
-}
-if (!!nombreUsuarioU && !!apellidoUsuarioU && !!edadUsuarioU) {
-    ocultarForulario();
-}
-//NO ENTIENDO PORQUE NO ME SALE
+
+botonPrueba.addEventListener("click", (e) => {
+    if (nombreUsuarioU.value != "" || apellidoUsuarioU.value != "" || edadUsuarioU.value != "") {
+        contFormulario.style.display = "none";
+        var newContent = document.createTextNode(`Hola ${nombreUsuarioU.value} ${apellidoUsuarioU.value} Tenés ${edadUsuarioU.value} años.`);
+
+        formularioIu.append(newContent)
+    } else {
+        alert("Completar los campos faltantes")
+    }
+})
+
+//const ocultarForulario = () => {
+  //  contFormulario.style.display = "none";
+    //contenidoO.innerText = `Hola ${nombreUsuarioU} ${apellidoUsuarioU} Tenés ${edadUusarioU} años.`; 
+//}
+//if (!!nombreUsuarioU && !!apellidoUsuarioU && !!edadUsuarioU) {
+  //  ocultarForulario();
+//}
+
 
 nombreUsuarioU.addEventListener("input", (e) => {
     sessionStorage.setItem("inputNombreU", nombreUsuarioU.value);
