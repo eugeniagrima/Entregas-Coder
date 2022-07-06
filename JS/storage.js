@@ -18,7 +18,7 @@ localStorage.setItem("edad", edadUsuarioU.value);
 })
 const ocultarForulario = () => {
     contFormulario.style.display = "none";
-    contenidoO.innerText = "Hola ${nombreUsuarioU} ${apellidoUsuarioU} Tenés ${edadUusarioU} años."; //NO SE PORQUE ME QUEDA ASI!
+    contenidoO.innerText = `Hola ${nombreUsuarioU} ${apellidoUsuarioU} Tenés ${edadUusarioU} años.`; //NO SE PORQUE ME QUEDA ASI!
 }
 if (!!nombreUsuarioU && !!apellidoUsuarioU && !!edadUsuarioU) {
     ocultarForulario();

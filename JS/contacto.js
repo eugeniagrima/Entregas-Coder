@@ -1,4 +1,5 @@
-alert("Cuantás consultas pensás que tenemos por día?")
+let botonAdivinanza = document.getElementById("adivinanza");
+let contenedorAdivinanza = document.getElementById("pruebaA");
 
 function calculadora(primerNumero, segundoNumero, operacion) {
     switch (operacion) {
@@ -15,16 +16,21 @@ function calculadora(primerNumero, segundoNumero, operacion) {
     }
 }
 
-function CuantasVecesTeAtendiste() {
-    let operador = prompt("+, -, * o /?")
-    let num1 = Number (prompt("Ingresá el primer número"));
-    let num2 = Number (prompt("Ingresá el segundo número"));
-   document.write ("Pensás que tenemos " + calculadora(num1, num2, operador) + " consultas diarias")
-}
-CuantasVecesTeAtendiste()
-//QUE TENDRIA QUE HACER ACA PARA SACAR EL ALERT?
-//NO ME MUESTRA ESTO EN LA WEB. 
-const { value: text } = await Swal.fire({
+botonAdivinanza.addEventListener("click", function(){
+  let operador = prompt("+, -, * o /?")
+  let num1 = Number (prompt("Ingresá el primer número"));
+  let num2 = Number (prompt("Ingresá el segundo número"));
+
+  Swal.fire({
+    position: 'center',
+    icon: 'info',
+    title: `PRUEBA 2: Pensás que tenemos ${calculadora(num1, num2, operador)} consultas diarias`,
+    showConfirmButton: false,
+    timer: 1500
+  })
+})
+
+const { value: text } = Swal.fire({
     input: 'textarea',
     inputLabel: 'Ya te atendiste con nosotras?',
     inputPlaceholder: 'Escribí tu respuesta aca!',
@@ -44,12 +50,12 @@ const { value: text } = await Swal.fire({
     inputLabel: 'Tu edad',
     inputAttributes: {
       min: 16,
-      max: 100,
+      max: 90,
       step: 1
     },
     inputValue: 25
   })
-  const { value: accept } = await Swal.fire({
+  const { value: accept } = Swal.fire({
     title: 'Términos y condiciones',
     input: 'checkbox',
     inputValue: 1,
