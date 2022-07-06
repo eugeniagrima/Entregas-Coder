@@ -24,7 +24,7 @@ botonAdivinanza.addEventListener("click", function(){
   Swal.fire({
     position: 'center',
     icon: 'info',
-    title: `PRUEBA 2: Pensás que tenemos ${calculadora(num1, num2, operador)} consultas diarias`,
+    title: `Pensás que tenemos ${calculadora(num1, num2, operador)} consultas diarias!`,
     showConfirmButton: false,
     timer: 1500
   })

@@ -27,15 +27,6 @@ botonPrueba.addEventListener("click", (e) => {
     }
 })
 
-//const ocultarForulario = () => {
-  //  contFormulario.style.display = "none";
-    //contenidoO.innerText = `Hola ${nombreUsuarioU} ${apellidoUsuarioU} Tenés ${edadUusarioU} años.`; 
-//}
-//if (!!nombreUsuarioU && !!apellidoUsuarioU && !!edadUsuarioU) {
-  //  ocultarForulario();
-//}
-
-
 nombreUsuarioU.addEventListener("input", (e) => {
     sessionStorage.setItem("inputNombreU", nombreUsuarioU.value);
 })
