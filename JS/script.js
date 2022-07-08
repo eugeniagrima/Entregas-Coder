@@ -20,4 +20,12 @@ const { value: text } = Swal.fire({
     Swal.fire(text)
   }
 
- 
+const botonaso = document.querySelector (`#masInfo`);
+const popUp = document.querySelector(`#popup-mensaje`);
+
+botonaso.addEventListener(`clic`, () => {
+  popUp.classList.add(popup-mensaje.popup-active)
+setTimeout(() => {
+  popUp.classList.remove(popup-active)
+}, 9000);
+})
