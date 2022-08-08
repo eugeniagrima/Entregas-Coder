@@ -23,24 +23,6 @@
   width: 80%;
 }
 
-#masInfo {
-  width: 300px;
-  height: 50px;
-  margin: 10px;
-  padding: 10px;
-}
-
-#popup-mensaje {
-  display: none;
-  background-color: #918f8d;
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
-#popup-mensaje.popup-active {
-  display: block;
-}
 .gridMaqui {
   width: 1000px;
 }
@@ -117,9 +99,7 @@
   display: grid;
   -ms-grid-columns: 2fr;
       grid-template-columns: 2fr;
-      grid-template-areas: "header header header header"
- "main main main main"
- "footer footer footer footer";
+      grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
   justify-items: center;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
@@ -363,16 +343,12 @@
   background: url(../Img/fondo-contacto.jpg) no-repeat 0px 0px;
   background-size: cover;
   width: 700px;
-  height: 600px;
+  height: 450px;
   margin: auto auto 100px auto;
   text-align: left;
   padding: 20px;
 }
 
-#pruebaA {
-  text-align: center;
-  font-size: 0.9rem;
-}
 .carousel-inner {
   width: 500px;
   height: 600px;
