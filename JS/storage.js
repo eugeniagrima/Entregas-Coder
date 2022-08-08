@@ -40,4 +40,3 @@ edadUsuarioU.addEventListener("input", (e) => {
 const objeto = { base: "Higiene Base", precio: 3500 };
 localStorage.setItem("base", JSON.stringify(objeto));
 const objetoRecuperado  = JSON.parse(localStorage.getItem("base"));
-console.log(objetoRecuperado);

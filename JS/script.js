@@ -1,5 +1,4 @@
 const fecha = new Date ();
-console.log (Date)
 let nombreUsuario = document.getElementById ("nombreUsuario")
 let apellidoUsuario = document.getElementById ("apellidoUsuario")
 let edadUsuario = document.getElementById ("edadUsuario")
@@ -46,6 +45,5 @@ const eventoFuturo = (res) => {
 }
 eventoFuturo().then((res) => {
   respuestaOk.innerHtml = res; 
-  console.log(res);
 }
 )
