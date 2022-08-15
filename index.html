@@ -107,7 +107,9 @@
             <input id="nombreUsuarioU" type="text" placeholder="nombre">
             <input id="apellidoUsuarioU" type="text" placeholder="apellido">
             <input id="edadUsuarioU" type="number" placeholder="edad">
-            <input id="enviarPrueba" value="enviar" type="submit">
+            <input id="enviarPrueba" onclick="guardarDatos()" value="Guardar datos" type="submit">
+            <p id="datos"> Pulsa para ver tus datos</p>
+            <input type="button" onclick="recuperarDatos()" value="Recuperar datos"/>
             </div>
             <button id="masInfo"> <p>Mas info?</p></button>
             <p id="popup-mensaje"> Dejanos tus datos en Contacto para + info!</p>
@@ -115,7 +117,33 @@
             <div id="contenidoO"></div>
                 </div>
                 <div id="app"></div>
-                
+                <div class="container mt-4 shadow-lg p3 mb-5 bg-body rounded">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>NOMBRE</th>
+                                <th>EMAIL</th>
+                            </tr>
+                        </thead>
+                        <body id="data">
+                            
+                        </body>
+                    </table>
+                 </div>
+                <script>
+                     let url = `https://jsonplaceholder.typicode.com/users`
+                     fetch(url)
+                     .then(data => mostrarData(data))
+                     .catch(error => alert (error))
+                    const mostrarData = (data) => {
+                        let body = ``
+                        for (let i = 0; i<data.length; i++) {
+                            body += `<tr><td>${data[i].id}</td><td>${data[i].name}</td><td>${data[i].email}</td></tr>`
+                        }
+                        document.getElementById(`data`).innerHTML = body
+                    }
+                </script>
     <footer class="footer">
         <div>
             <ul class="footer__redes">
@@ -145,6 +173,6 @@
     <script src="./JS/script.js"></script>
     <script src="./JS/eventos.js"></script>
     <script src="./JS/storage.js"></script>
-</body>
+    </body>
 
 </html>
