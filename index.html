@@ -148,6 +148,39 @@
                        document.getElementById("data_fetch").innerText =body
                    }
                 </script>
+                <div class="contaiiner">
+                    <div class="roow">
+                        <div class="cool">
+                            <form>
+                                <div class="mb-3">
+                                <label for="valorInput">Valor</label>
+                                <input id="valorInput" type="text" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="btn btn-group">
+                            <button id="btnGuardar" type="button" class="btn btn-outline-success">Guardar</button>
+                            <button id="btnCargar" type="button" class="btn btn-outline-primary">Cargar</button>
+                            <button id="btnBorrar" type="button" class="btn btn-outline-danger">Borrar</button>
+                        </div>
+                        <h2><span id="valorDesdeLS" class="badge bg-success"></span></h2>
+                    </div>
+                </div>
+                <script>
+                    btnGuardar.addEventListener(`click`, ()=>{
+                        let val = document.getElementById("valorInput").value;
+                       localStorage.setItem("valorEnLS", val);
+                       document.getElementById("valorInput").value = "";
+                    });
+                    btnCargar.addEventListener(`click`, ()=>{
+                        let val = localStorage.getItem("valorEnLS");
+                        document.getElementById("valorDesdeLS").innerHTML = val;
+                    });
+                    btnBorrar.addEventListener(`click`, ()=>{
+                        document.getElementById("valorDesdeLS").innerHTML = "";
+                        localStorage.clear();
+                    });
+                </script>
     <footer class="footer">
         <div>
             <ul class="footer__redes">
